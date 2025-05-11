@@ -107,13 +107,22 @@ html {
   }
 }
 
-/* Improve tap targets on mobile */
-@media (max-width: 640px) {
-  button,
-  a,
-  .tap-target {
-    min-height: 44px;
-    min-width: 44px;
+/* Adjust the Contact Us section for medium-sized screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #contact .bg-card {
+    padding: 2rem; /* Adjust padding for tablets */
+  }
+
+  #contact .flex {
+    flex-wrap: wrap; /* Ensure proper wrapping of content */
+  }
+
+  #contact .space-y-4 {
+    gap: 1rem; /* Adjust spacing between elements */
+  }
+
+  #contact .text-muted-foreground {
+    word-wrap: break-word; /* Prevent text overflow */
   }
 }
 

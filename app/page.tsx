@@ -100,7 +100,10 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       {/* Hero Section with Slideshow */}
-      <section id="hero" className="w-full py-16 md:py-24 px-4 md:px-8 relative overflow-hidden">
+      <section
+        id="hero"
+        className="w-full py-16 md:py-24 px-4 md:px-8 relative overflow-hidden"
+      >
         <DecorativeCircle className="absolute -top-20 -right-20 text-primary/10 w-96 h-96" />
         <DecorativeCircle className="absolute -bottom-40 -left-40 text-accent/10 w-[500px] h-[500px]" />
 
@@ -192,7 +195,10 @@ export default function Home() {
       </section>
 
       {/* About Us - Comprehensive */}
-      <section id="about" className="w-full py-16 md:py-24 px-4 md:px-8 bg-background relative overflow-hidden">
+      <section
+        id="about"
+        className="w-full py-16 md:py-24 px-4 md:px-8 bg-background relative overflow-hidden"
+      >
         <DecorativeCircle className="absolute -top-40 -left-40 text-primary/5 w-[500px] h-[500px]" />
 
         <div className="max-w-7xl mx-auto relative z-10">
@@ -305,11 +311,11 @@ export default function Home() {
                     </span>
                     <div>
                       <span className="text-primary font-bold">
-                        CRA Workshops for Residents
+                        Empowerment & Capacity Building Workshops for Residents
                       </span>
                       <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                        Educating community members on financial literacy, tax
-                        benefits, and government support programs.
+                        Organize if capacity building programs, Resume writing ,
+                        Job Faits , Financial literacy and career coaching
                       </p>
                     </div>
                   </li>
@@ -550,7 +556,10 @@ export default function Home() {
       </section>
 
       {/* Contact & Subscribe */}
-      <section id="contact" className="w-full py-16 md:py-24 px-4 md:px-8 bg-gradient-to-b from-card to-background relative overflow-hidden">
+      <section
+        id="contact"
+        className="w-full py-16 md:py-24 px-4 md:px-8 bg-gradient-to-b from-card to-background relative overflow-hidden"
+      >
         <DecorativeCircle className="absolute -top-40 -left-40 text-accent/5 w-[500px] h-[500px]" />
 
         <div className="max-w-7xl mx-auto relative z-10">
