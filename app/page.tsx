@@ -26,10 +26,6 @@ export default function Home() {
 
   const heroSlides = [
     {
-      url: "/images/hero/img1.webp",
-      alt: "Community members receiving food assistance",
-    },
-    {
       url: "/images/hero/img2.webp",
       alt: "Volunteers preparing food packages",
     },
