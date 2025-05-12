@@ -272,6 +272,35 @@ export default function Home() {
                       </p>
                     </div>
                   </li>
+                                    <li className="flex items-start">
+                    <span className="text-accent font-bold mr-2 flex-shrink-0 mt-1">
+                      ✦
+                    </span>
+                    <div>
+                      <span className="text-primary font-bold">
+                        Service Canada Community Clinics
+                      </span>
+                      <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
+                        Helping residents navigate employment, benefits, and
+                        transition services, ensuring they can access essential
+                        government resources.
+                      </p>
+                    </div>
+                  </li>
+                                    <li className="flex items-start">
+                    <span className="text-accent font-bold mr-2 flex-shrink-0 mt-1">
+                      ✦
+                    </span>
+                    <div>
+                      <span className="text-primary font-bold">
+                        Empowerment & Capacity Building Workshops for Residents
+                      </span>
+                      <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
+                        Organize if capacity building programs, Resume writing ,
+                        Job Faits , Financial literacy and career coaching
+                      </p>
+                    </div>
+                  </li>
                   <li className="flex items-start">
                     <span className="text-accent font-bold mr-2 flex-shrink-0 mt-1">
                       ✦
@@ -301,35 +330,8 @@ export default function Home() {
                       </p>
                     </div>
                   </li>
-                  <li className="flex items-start">
-                    <span className="text-accent font-bold mr-2 flex-shrink-0 mt-1">
-                      ✦
-                    </span>
-                    <div>
-                      <span className="text-primary font-bold">
-                        Empowerment & Capacity Building Workshops for Residents
-                      </span>
-                      <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                        Organize if capacity building programs, Resume writing ,
-                        Job Faits , Financial literacy and career coaching
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-accent font-bold mr-2 flex-shrink-0 mt-1">
-                      ✦
-                    </span>
-                    <div>
-                      <span className="text-primary font-bold">
-                        Service Canada Community Clinics
-                      </span>
-                      <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                        Helping residents navigate employment, benefits, and
-                        transition services, ensuring they can access essential
-                        government resources.
-                      </p>
-                    </div>
-                  </li>
+
+
                 </ul>
               </div>
 
