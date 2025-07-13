@@ -585,7 +585,7 @@ export default function Home() {
                   <div className="w-full sm:w-24 font-semibold text-primary mb-1 sm:mb-0">
                     Phone:
                   </div>
-                  <div className="text-muted-foreground">+1-437-985-5504</div>
+                  <div className="text-muted-foreground">+1 (437) 605-7477</div>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:items-start">
                   <div className="w-full sm:w-24 font-semibold text-primary mb-1 sm:mb-0">
