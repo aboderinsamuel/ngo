@@ -181,7 +181,7 @@ export default function Home() {
           <StatsCounter
             stats={[
               { label: "People Served in 2024", value: 32850 },
-              { label: "Weekly Food Bank Users", value: 685 },
+              { label: "Weekly Food Bank Users", value: 987 },
               { label: "Volunteer Team Members", value: 40 },
             ]}
             textColor="text-white"
@@ -266,7 +266,7 @@ export default function Home() {
                         Community Food Bank
                       </span>
                       <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                        Serving 685 individuals weekly, including School Feeding
+                        Serving 987 individuals weekly, including School Feeding
                         Program, Seniors' Nutrition Program, Shelter Feeding
                         Program, and Community Walk-In Food Bank.
                       </p>
@@ -408,7 +408,7 @@ export default function Home() {
 
             <div className="space-y-8 max-w-4xl mx-auto">
               <p className="text-muted-foreground text-lg leading-relaxed text-center">
-                Our food bank serves over 685 individuals weekly, including
+                Our food bank serves over 987 individuals weekly, including
                 school children, seniors, and shelter residents. We're committed
                 to ensuring no one in West Hill goes hungry.
               </p>
