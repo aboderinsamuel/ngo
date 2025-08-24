@@ -55,12 +55,6 @@ export default function Home() {
       icon: "utensils",
     },
     {
-      title: "Empowerment Programs",
-      description:
-        "Financial literacy workshops, entrepreneurship training, job fairs, and skills development to help clients achieve independence.",
-      icon: "briefcase",
-    },
-    {
       title: "Social Services & Case Management",
       description:
         "Access to government benefits, free legal clinics, tax filing assistance, and housing support for community members.",
@@ -256,7 +250,7 @@ export default function Home() {
                   We provide a range of programs designed to support residents
                   through difficult times and help them regain stability:
                 </p>
-                <ul className="space-y-4 mb-6">
+                <ul className="space-y-6 mb-6">
                   <li className="flex items-start">
                     <span className="text-accent font-bold mr-2 flex-shrink-0 mt-1">
                       ✦
@@ -272,7 +266,7 @@ export default function Home() {
                       </p>
                     </div>
                   </li>
-                                    <li className="flex items-start">
+                  <li className="flex items-start">
                     <span className="text-accent font-bold mr-2 flex-shrink-0 mt-1">
                       ✦
                     </span>
@@ -284,35 +278,6 @@ export default function Home() {
                         Helping residents navigate employment, benefits, and
                         transition services, ensuring they can access essential
                         government resources.
-                      </p>
-                    </div>
-                  </li>
-                                    <li className="flex items-start">
-                    <span className="text-accent font-bold mr-2 flex-shrink-0 mt-1">
-                      ✦
-                    </span>
-                    <div>
-                      <span className="text-primary font-bold">
-                        Empowerment & Capacity Building Workshops for Residents
-                      </span>
-                      <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                        Organize if capacity building programs, Resume writing ,
-                        Job Faits , Financial literacy and career coaching
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-accent font-bold mr-2 flex-shrink-0 mt-1">
-                      ✦
-                    </span>
-                    <div>
-                      <span className="text-primary font-bold">
-                        Free Legal Clinic
-                      </span>
-                      <p className="text-muted-foreground text-sm mt-1 leading-relaxed">
-                        In partnership with PaceLaw Law Firm – Offering legal
-                        guidance and support to community members facing legal
-                        challenges.
                       </p>
                     </div>
                   </li>
@@ -330,8 +295,6 @@ export default function Home() {
                       </p>
                     </div>
                   </li>
-
-
                 </ul>
               </div>
 
