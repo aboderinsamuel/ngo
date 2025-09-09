@@ -24,6 +24,17 @@ export default function Home() {
       alt: `Image of ${fileName.replace(/\.[^/.]+$/, "").replace(/-/g, " ")}`,
     }));
 
+  // Dynamically load all images from the servicesImages folder
+  const serviceSlides = fs
+    .readdirSync(path.join(process.cwd(), "public/servicesImages"))
+    .filter((fileName) => /\.(png|jpe?g|webp|svg)$/i.test(fileName))
+    .map((fileName) => ({
+      url: `/servicesImages/${fileName}`,
+      alt: `Service Canada at West Hill - ${fileName
+        .replace(/\.[^/.]+$/, "")
+        .replace(/[-_]/g, " ")}`,
+    }));
+
   const heroSlides = [
     {
       url: "/images/hero/img2.webp",
@@ -319,6 +330,54 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Canada at West Hill */}
+      <section className="w-full py-16 md:py-24 px-4 md:px-8 bg-background relative overflow-hidden">
+        <DecorativeCircle className="absolute -top-40 -left-40 text-primary/5 w-[500px] h-[500px]" />
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-2">
+              Our Services
+            </h2>
+            <p className="text-xl md:text-2xl text-muted-foreground">
+              Service Canada at West Hill
+            </p>
+            <div className="w-24 h-1 bg-accent mx-auto mt-4"></div>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
+              <p>
+                Our partnership with Service Canada brings essential government
+                services directly to West Hill.
+              </p>
+              <p>
+                Residents can now access CPP, OAS, GIS, EI, and more
+                locally—making support more accessible and convenient for
+                everyone in our community.
+              </p>
+              <p>
+                We are committed to ensuring that vital services are available
+                close to home.
+              </p>
+              <p className="text-sm text-primary/80 font-medium">
+                #WestHillSupport #ServiceCanada
+              </p>
+            </div>
+
+            {serviceSlides.length > 0 && (
+              <div className="rounded-3xl overflow-hidden shadow-xl">
+                <ImageSlider
+                  slides={serviceSlides}
+                  autoPlay={true}
+                  height={450}
+                />
+              </div>
+            )}
           </div>
         </div>
       </section>
